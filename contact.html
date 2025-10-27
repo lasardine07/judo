@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaire</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <h1 id="haut">Valentin CARPINTEIRO LERICQ</h1>
+    <p>Remplir ce formulaire en cas d’intérêt pour le CV</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="techniques.html">Techniques</a>
+    <a href="regles.html">Règles</a>
+    <a href="judoka.html">Judokas</a>
+    <a href="index2.html">CV</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <form action="index.html" method="get">
+    <ul>
+      <li>
+        <label for="name">Nom</label>
+        <input id="name" name="user_name" type="text" required>
+      </li>
+      <li>
+        <label for="nickname">Prénom</label>
+        <input id="nickname" name="nick_name" type="text" required>
+      </li>
+      <li>
+        <label for="mail">Email</label>
+        <input id="mail" name="mail" type="email" required>
+      </li>
+      <li>
+        <label for="numero">Numéro de téléphone</label>
+        <input id="numero" name="numero" type="tel" inputmode="tel" autocomplete="tel">
+      </li>
+      <li>
+        <label for="poste">Poste proposé</label>
+        <input id="poste" name="raison" type="text" required>
+      </li>
+      <li>
+        <button type="submit">Valider</button>
+      </li>
+    </ul>
+  </form>
+</body>
+</html>
